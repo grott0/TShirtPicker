@@ -1,2 +1,2 @@
 # TShirtCrawler
-A very tine WPF applicaton which picks my T-shirt in the morning.
+A very tiny WPF applicaton which picks my T-shirt in the morning.
