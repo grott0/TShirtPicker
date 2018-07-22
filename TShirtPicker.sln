@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.27703.2042
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TShirtPicker", "TShirtPicker\TShirtPicker.csproj", "{214FA4A0-52C3-48CE-9828-4F4F5485CACA}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TShirtPicker.Data", "TShirtPicker.Data\TShirtPicker.Data.csproj", "{2487E6EB-C3B2-43E1-B719-ED7D9307CB55}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{214FA4A0-52C3-48CE-9828-4F4F5485CACA}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{214FA4A0-52C3-48CE-9828-4F4F5485CACA}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{214FA4A0-52C3-48CE-9828-4F4F5485CACA}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{214FA4A0-52C3-48CE-9828-4F4F5485CACA}.Release|Any CPU.Build.0 = Release|Any CPU
+		{2487E6EB-C3B2-43E1-B719-ED7D9307CB55}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2487E6EB-C3B2-43E1-B719-ED7D9307CB55}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2487E6EB-C3B2-43E1-B719-ED7D9307CB55}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2487E6EB-C3B2-43E1-B719-ED7D9307CB55}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {2B79C07F-59AB-4826-9DEB-087AE39CFDA7}
+	EndGlobalSection
+EndGlobal
