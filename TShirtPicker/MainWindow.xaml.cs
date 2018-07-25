@@ -36,10 +36,7 @@ namespace TShirtPicker
             catch (Exception exception)
             {
                 this.log.LogData(exception.Message, Severity.Error);
-            }
-            finally
-            {
-                MessageBox.Show("A fatal error occured.");
+                MessageBox.Show("Fatal Error.");
             }
         }
 
@@ -49,13 +46,13 @@ namespace TShirtPicker
             List<TShirt> tShirts = this.repository.GetAll().ToList();
 
             string blackTShirtsMessage = string.Format(
-                "{0} black T-shirts availabe.", tShirts.Count(x => x.Color.Contains("Black")));
+                "{0} black T-shirts availabe.", tShirts.First(x => x.Color.Contains("Black")).Quantity);
             string whiteTShirtsMessage = string.Format(
-                "{0} white T-shirts available.", tShirts.Count(x => x.Color.Contains("White")));
+                "{0} white T-shirts available.", tShirts.First(x => x.Color.Contains("White")).Quantity);
             string greyTShirstMessage = string.Format(
-                "{0} grey T-shirts available", tShirts.Count(x => x.Color.Contains("Grey")));
+                "{0} grey T-shirts available", tShirts.First(x => x.Color.Contains("Grey")).Quantity);
             string navyTShirtsMessage = string.Format(
-                "{0} grey T-shirts available", tShirts.Count(x => x.Color.Contains("Navy")));
+                "{0} navy T-shirts available", tShirts.First(x => x.Color.Contains("Navy")).Quantity);
 
             this.log.LogData(blackTShirtsMessage, Severity.Information);
             this.log.LogData(whiteTShirtsMessage, Severity.Information);

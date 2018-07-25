@@ -16,7 +16,7 @@ namespace TShirtPicker.Data
             using (SqlConnection connection = new SqlConnection(Settings.Default.connectionString))
             {
                 string query = $"INSERT INTO TShirtsDb..Log(Message, Severity, Timestamp)" +
-                    $"VALUES ('{message}', {severity}, {DateTime.UtcNow}";
+                    $" VALUES ('{message}', {(int)severity}, '{DateTime.UtcNow.ToString("yyyy-MM-dd hh:mm:ss")}')";
 
                 using (SqlCommand command = new SqlCommand(query, connection))
                 {
