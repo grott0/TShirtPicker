@@ -64,10 +64,10 @@ namespace TShirtPicker
                 int index = rnd.Next(0, tShirts.Count);
 
                 this.log.LogData($"Loop number {loopCounter}, Number {index}", Severity.Information);
-                this.log.LogData($"{tShirts[index].Color} chosen", Severity.Information);
 
                 if (tShirts[index].Quantity > 0)
                 {
+                    this.log.LogData($"{tShirts[index].Color} chosen", Severity.Information);
                     ImageSource imageSource = new BitmapImage(
                         new Uri($@"../../Resources/{tShirts[index].Color}.jpg", UriKind.Relative));
                     this.Image.Source = imageSource;
