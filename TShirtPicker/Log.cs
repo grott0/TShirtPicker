@@ -3,8 +3,6 @@ using System.IO;
 using TShirtPicker.Data;
 using TShirtPicker.Data.Models;
 
-// Yay!
-// Booyah!
 namespace TShirtPicker
 {
     internal class Log
