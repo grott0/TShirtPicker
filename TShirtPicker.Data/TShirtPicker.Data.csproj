@@ -40,7 +40,6 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="LogRepository.cs" />
     <Compile Include="Models\Severity.cs" />
     <Compile Include="Models\TShirt.cs" />
     <Compile Include="Properties\Settings.Designer.cs">
